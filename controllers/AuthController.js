@@ -5,7 +5,8 @@ const { generateToken} = require('../utils/GenerateToken')
 
 class AuthController{
     login = async (req, res) => {
-
+        const {email, password} = req.body
+        console.log(email, password)
     }
 }
 
